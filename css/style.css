@@ -1,0 +1,46 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	--card-bg-color:gray;
+}
+.heading_section{
+	padding:15px;
+	display:flex;
+	justify-content:space-between;
+	font-size:18px;
+}
+
+.dropdown_box{
+	width:300px;
+	height:350px;
+	background-color:var(--card-bg-color);
+	border-radius:5px;
+	border:1px solid;
+	display:none;
+	position:relative;
+}
+.list_section li a{
+	list-style:none;
+	text-decoration:none;
+	color:black;
+	padding:10px;
+	
+}
+.list_section ul li{
+	border-top:1px solid;
+	padding:5px;
+	display:flex;
+	align-items:center;
+}
+.list_section li span{
+	color:blue;
+}
+
+.dropdown:hover .dropdown_box{
+	display:block;
+	position:absolute;
+}
+
+	
